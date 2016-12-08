@@ -1,0 +1,66 @@
+//This class accesses or changes any given actors Id#, name, and gender
+package movieDataPackage;
+
+public class Actor 
+{
+	int id;
+	String fName;
+	String lName;
+	String gen;
+	
+	public Actor(int id, String fName, String lName, String gen)
+	{
+		this.id = id;
+		this.fName = fName;
+		this.lName = lName;
+		this.gen = gen;
+	
+	}
+	
+	public Actor(String fName, String lName, String gen)
+	{
+		this.fName = fName;
+		this.lName = lName;
+		this.gen = gen;	
+	}
+	
+	public int getId()
+	{
+		return id;
+	}
+	
+	public void setId(int id)
+	{
+		this.id =id;
+	}
+	
+	public String getFName()
+	{
+		return fName;
+	}
+	
+	public void setFName(String fName)
+	{
+		this.fName = fName;
+	}
+	
+	public String getLName()
+	{
+		return lName;
+	}
+	
+	public void setLName(String lName)
+	{
+		this.lName = lName;
+	}
+	
+	public String getGen()
+	{
+		return gen;
+	}
+
+	public void setGen(String gen)
+	{
+		this.gen = gen;
+	}
+}
